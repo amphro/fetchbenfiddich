@@ -28,10 +28,10 @@ def check_availability():
 
     if response.status_code == 200:
         response_data = response.json()
-        print("Data found in response:")
         print(response_data)
         availability_dates = response_data.get("availability_dates")
         if availability_dates.get("data"):
+            print("Data found in response!")
             # Exit with status 1 if data is not empty
             sys.exit(1)
         else:
