@@ -20,7 +20,7 @@ def check_availability():
       "start_date": "2024-09-20T19:00:00.000+09:00",
       "end_date": "2024-09-27T23:59:59.000+09:00",
       "orders": [],
-      "use_experience_page": false,
+      "use_experience_page": False,
       "locale": "en"
     }
 
