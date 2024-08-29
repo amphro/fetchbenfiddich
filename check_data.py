@@ -17,7 +17,6 @@ def check_availability():
       "service_category_ids": [
         "661e2ceaeefe0c01f9b2c054","661e2cf31ec3ef01ef82a0b9"
       ],
-      "manual_duration": nil,
       "start_date": "2024-09-20T19:00:00.000+09:00",
       "end_date": "2024-09-27T23:59:59.000+09:00",
       "orders": [],
